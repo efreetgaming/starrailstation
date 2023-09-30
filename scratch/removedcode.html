@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type"content="text/html; charset=utf-8"/>
+		<meta name="viewport"content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+		<title>News Slider</title>
+		<link href="style2.css"rel="stylesheet"type="text/css"/>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css" crossorigin="anonymous" />
+		<script src="https://code.jquery.com/jquery-1.12.4.js" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/materialize.min.css">
+		<style>
+			.video-card {
+    min-height: 300px;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-card video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+		</style>
+	</head>
+	<body>
+        <nav class="nav-wrapper nav-color">
+            <a href="#" class="sidenav-trigger" data-target="mobile-links">
+                <i class="material-icons right hide-on-large-only">menu</i>
+            </a>
+            <div class="container">
+                <a href="#" class="brand-logo">
+                    <img src="img/icons8-honkai-star-rail-logo-64.png" alt="Star Rail Logo" class="brand-logo-customize">
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li class="text-customize"><a href="index.html"><i class="material-icons left">home</i>HOME</a></li>
+                    <li class="text-customize"><a href="https://www.youtube.com/watch?v=-flr1wgIJ_A" target="_blank"><i class="material-icons left">play_arrow</i>GAMEPLAY</a></li>
+                    <li class="text-customize"><a href="character.html"><i class="material-icons left">person</i>CHARACTERS</a></li>
+                    <li class="text-customize"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUJcmljayByb2xs"><i class="material-icons left">forum</i>JOIN US</a></li>
+                </ul>
+            </div>
+        </nav>
+
+		<div class="container">
+			div
+		</div>
+
+		<div class="container white-text section">
+			<!-- Main Content Section -->
+			<h2 class="character-name center-align">Star Rail Station</h2>
+			<hr>
+			<p class="home-description">Hop aboard the Astral Express and experience the galaxy's infinite wonders filled with adventure and thrills. Players will meet new companions across various worlds and maybe even run into some familiar faces. Overcome the struggles together caused by Stellaron and unravel the hidden truths behind it! May this journey lead us starward!</p>
+			<ol class="home-description">
+				<li class="home-description">Explore Distinct Worlds — Discover the boundless universe filled with wonder 3, 2, 1, initiating warp! A space station with Curios sealed away, a foreign planet with an eternal winter, a starship hunting down abominations... Every stop of the Astral Express is a never-before-seen view of the galaxy! Explore fantastical worlds and civilizations, uncover mysteries beyond imagination, and set out on a journey of wonder!</li>
+				<li class="home-description">Riveting RPG Experience — A best-in-class immersive adventure beyond the stars Embark on a galactic adventure where you shape the story. Our cutting-edge engine renders high-quality cinematics in real-time, our innovative facial expression system concocts genuine sentiments, and HOYO-MiX's original score sets the stage. Join us now and journey through a universe of conflict and collaboration, where your choices define the outcome!</li>
+				<li class="home-description">Compelling Allies — Go on a trailblazing venture with new friends In the ocean of stars, there are endless encounters that come along with endless adventures. Prepare tickets for your companions and embark on this wondrous journey together! A spunky and eccentric amnesiac girl, a noble and upright Silvermane Guard, an indolent Cloud Knight general, and even a mysterious and secretive professional beauty... Confront the Stellaron crisis together and weave your past, present, and future with laughter and tears.</li>
+				<li class="home-description">Reimagining Tactical Combat — Exploit weaknesses, battle to your heart's desire Get ready for exciting battles with a satisfying rhythm! Use a brand-new command combat system that enables simple yet strategic controls, employ Techniques and suppress enemies with different Types' Weakness Breaks, then finish the fight with style via a stunning Ultimate. In the randomly-generated mazes of the Simulated Universe, surprising random events and nearly 100 different Blessings and Curios will grant you an incredible boost in abilities, allowing you to challenge a more unpredictable combat environment.</li>
+				<li class="home-description">Top-Tier Voice Actors for an Immersive Experience — A dream team of multiple language dubs assembled for the entire story When words come alive, when stories give you a choice, when characters possess a soul... We present to you dozens of emotions, hundreds of facial expressions, thousands of lore pieces, and a million words that make up this universe's beating heart. With full voice-over in four languages, the characters will transcend their virtual existences and become your tangible companions, creating a new chapter in this tale together with you.</li>
+			</ol>
+		</div>
+												<!-- Script-Section -->
+                                                <script src="js/materialize.min.js"></script>
+												<script type="text/javascript">
+													$(document).ready(function(){
+														$("#news-slider").owlCarousel({
+															items:3,
+															navigation:true,
+															navigationText:["",""],
+															autoPlay:true
+														});
+													});
+												</script>
+											</body>
+										</html>

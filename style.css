@@ -1,0 +1,218 @@
+.nav-color {
+    background-color: #383434;
+}
+
+.text-stroke {
+    color: #fff; /* Set the text color */
+    text-shadow:
+        -2px -2px 0 #000, /* Top-left */
+        2px -2px 0 #000,  /* Top-right */
+        -2px 2px 0 #000,  /* Bottom-left */
+        2px 2px 0 #000;   /* Bottom-right */
+}
+
+.official-logo-position {
+    left: 150px;
+    top: 250px;
+}
+
+.home-description {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.text-customize {
+    font-size: small;
+    line-height: 57px;
+    letter-spacing: 4px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.background-image {
+    background: url(img/GalaxyHomeBackground.jpg);
+    background-size: contain;
+}
+
+.character-name {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.character-description {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.header {
+    position: relative;
+    height: 600px; /* Set your desired height */
+    overflow: hidden; /* Hide the overflow of the video */
+}
+
+.back-video {
+    position: absolute;
+    bottom: 0; /* Position at the bottom */
+    left: 0;
+    width: 100%;
+    height: auto; /* Maintain the aspect ratio */
+    z-index: -1;
+    object-fit: cover;
+    object-position: center bottom; 
+}
+
+.back-char-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto; /* Center the video both horizontally and vertically */
+    width: 100%;
+    height: auto; /* Maintain the aspect ratio */
+    object-fit: cover;
+}
+
+header {
+    background-size: cover;
+}
+
+.guide-banner {
+    position: relative;
+    width: 50%;
+    height: 50%;
+}
+
+.slider-custom-height {
+    height: 600px; /* Adjust the height as needed */
+}
+
+.brand-logo-customize {
+    width: 64px;
+    height: 64px;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio (9 / 16) */
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.video-container .header {
+    position: relative;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding: 20px; /* Add padding to adjust the distance from the video's left edge */
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.7); /* Optional background color for text overlay */
+}
+
+/* Style for the text */
+.text-overlay h1 {
+    color: white; /* Text color */
+    font-size: 36px; /* Adjust the font size as needed */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional text shadow */
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card {
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s;
+    border-radius: 10px;
+}
+
+.shadow-bottom-header {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+@media only screen and (max-width: 1000px) {
+    .back-video {
+        position: relative; /* Change to absolute positioning */
+        width: 100%;
+        height: 98%; /* Cover the entire viewport height */
+        top: 0; /* Position at the top to overlap content */
+        object-fit: cover;
+        object-position: 64% bottom; /* Center the video horizontally and place it at the bottom */
+    }
+
+    .back-char-video {
+        position: relative;
+        width: 100%;
+        height: 98%;
+        top: 0;
+        object-fit: cover;
+        object-position: center center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .slider {
+        height: 300px; /* Adjust the height as needed for mobile devices */
+    }
+
+    .brand-logo-customize {
+        width: 55px;
+        height: 55px;
+    }
+
+    .header {
+        height: auto; /* Allow the header to adjust its height based on content */
+    }
+
+    .back-video {
+        position: relative; /* Change to absolute positioning */
+        width: 100%;
+        height: 75%; /* Cover the entire viewport height */
+        top: 0; /* Position at the top to overlap content */
+        object-fit: cover;
+        object-position: 64% bottom; /* Center the video horizontally and place it at the bottom */
+    }
+
+    .back-char-video {
+        position: relative;
+        width: 100%;
+        height: 75%;
+        top: 0;
+        object-fit: cover;
+        object-position: center center;
+    }
+
+    .official-logo-position {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: auto;
+        display: flex   ;
+    }
+}
