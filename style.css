@@ -12,15 +12,20 @@
 }
 
 .official-logo-position {
-    left: 150px;
-    top: 250px;
+    position: absolute;
+    width: 3.1em;
+    left: 1.64em;
+    top: 1.4em;
+}
+
+.border-img {
+    border-radius: 25px;
 }
 
 .home-description {
     font-family: 'Kanit', sans-serif;
-    font-weight: 300;
+    font-weight: 50px;
     font-style: normal;
-    font-size: 25px;
 }
 
 .text-customize {
@@ -32,7 +37,8 @@
 
 .background-image {
     background: url(img/GalaxyHomeBackground.jpg);
-    background-size: contain;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .character-name {
@@ -95,20 +101,20 @@ header {
     height: 64px;
 }
 
-.video-container {
+.responsive-video {
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio (9 / 16) */
+    padding-bottom: 56.25%; /* 16:9 aspect ratio (9 / 16 * 100) */
     height: 0;
     overflow: hidden;
 }
-
-.video-container iframe {
+  
+  .responsive-video iframe {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-}
+  }
 
 .img-responsive {
     max-width: 100%;
@@ -174,6 +180,20 @@ header {
         object-fit: cover;
         object-position: center center;
     }
+
+    .official-logo-position {
+        width: 100%; /* Full width */
+        text-align: center; /* Center-align the contents */
+        left: 0; /* Remove left positioning */
+        top: 0; /* Remove top positioning */
+      }
+
+    .official-logo-position img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+      }
 }
 
 @media only screen and (max-width: 600px) {
@@ -209,10 +229,15 @@ header {
     }
 
     .official-logo-position {
-        position: absolute;
-        top: 0;
+        text-align: center;
         left: 0;
-        height: auto;
-        display: flex   ;
     }
 }
+
+/* Tsting */
+
+.card-with-stroke {
+    border: 2px solid #ffff8d; /* Adjust the border properties as needed */
+    transition: transform 0.3s;
+}
+

@@ -1,0 +1,49 @@
+/* style.css */
+.responsive-video {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio (9 / 16 * 100) */
+    height: 0;
+    overflow: hidden;
+  }
+  
+  .responsive-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+.character-name {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.home-description {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.image-with-stroke {
+    position: relative;
+    display: inline-block;
+  }
+
+  .image-with-stroke img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .image-with-stroke::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 3px solid red; /* Adjust the border properties as needed */
+    pointer-events: none; /* Prevents the border from blocking interactions with the image */
+  }
