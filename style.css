@@ -24,9 +24,8 @@
 
 .home-description {
     font-family: 'Kanit', sans-serif;
-    font-weight: 50px;
+    font-weight: 25px;
     font-style: normal;
-    font-size: 20px;
 }
 
 .text-customize {
@@ -234,3 +233,11 @@ header {
         left: 0;
     }
 }
+
+/* Tsting */
+
+.card-with-stroke {
+    border: 2px solid #ffff8d; /* Adjust the border properties as needed */
+    transition: transform 0.3s;
+}
+
