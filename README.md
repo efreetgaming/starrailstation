@@ -5,7 +5,7 @@
 # Made with :
 | HTML | CSS | MaterializeCSS |
 |-------|----------|----------|
-| ![html-icon](https://github.com/efreetgaming/starrailstation.github.io/assets/78950659/5cbaac9a-df2c-4d11-bb77-0fa526262ee9 =250x250) | 
+| <img src="https://github.com/efreetgaming/starrailstation.github.io/assets/78950659/3a82beea-df50-48a2-a710-e41fa047d555" height="25px" width="25px"> | 
 
 
 
