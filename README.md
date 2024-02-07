@@ -3,7 +3,9 @@
 ![Website Preview](https://github.com/efreetgaming/starrailstation.github.io/assets/78950659/14c51456-6746-4e08-999c-827cc32e20b2)
 
 # Made with :
-![HTML - ](https://github.com/efreetgaming/starrailstation.github.io/assets/78950659/293ce7f8-670a-4b23-a656-aa8091b7a31f)
+| HTML | CSS | MaterializeCSS |
+|-------|----------|----------|
+| ![html-icon](https://github.com/efreetgaming/starrailstation.github.io/assets/78950659/5cbaac9a-df2c-4d11-bb77-0fa526262ee9) | 
 
 
 
