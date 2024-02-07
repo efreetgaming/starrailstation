@@ -3,8 +3,9 @@
 ![Website Preview](https://github.com/efreetgaming/starrailstation.github.io/assets/78950659/14c51456-6746-4e08-999c-827cc32e20b2)
 
 # Made with :
-![HTML](![html-icon](https://github.com/efreetgaming/starrailstation.github.io/assets/78950659/0a685532-6ff4-4971-afab-3082b14b0ce8)
-)
+![HTML - ](https://github.com/efreetgaming/starrailstation.github.io/assets/78950659/293ce7f8-670a-4b23-a656-aa8091b7a31f)
+
+
 
 # Under Development (Discontinued)
 Some Functionalities of the website is still not function very well, from the profile of the characters, tutorials, & guides. I might put some updates in the near future but with database where i can store every data that i have so i don't need to put it every single data
