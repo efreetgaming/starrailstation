@@ -7,3 +7,5 @@ Some Functionalities of the website is still not function very well, from the pr
 
 # Disclaimer : Educational Purpose Only
 The materials and content presented in this project are based on the Hoyoverse Honkai Star Rail game, used solely for educational and non-commercial purposes. This project is not affiliated with, endorsed by, or sponsored by Hoyoverse or miHoYo in any way.
+
+[![License](./License.md)]
