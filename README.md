@@ -2,7 +2,7 @@
 
 ![Website Preview](https://github.com/efreetgaming/starrailstation.github.io/assets/78950659/14c51456-6746-4e08-999c-827cc32e20b2)
 
-# Made with :
+# Made with ❤️
 <img src="https://github.com/efreetgaming/starrailstation.github.io/assets/78950659/3a82beea-df50-48a2-a710-e41fa047d555" height="30px" width="25px"> - HTML (Hypertext Markdown Language)
 
 
